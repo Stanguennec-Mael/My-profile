@@ -1,0 +1,113 @@
+/* Police + couleur générale */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e8f3ff; /* bleu ciel */
+  color: #1a3d7c; /* bleu profond */
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+/* Cartes séparées */
+.card {
+  background: white;
+  padding: 30px;
+  margin: 25px 0;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Photo de profil */
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Titres */
+h1, h2 {
+  color: #2a6fdb; /* bleu vif */
+  font-weight: 600;
+}
+
+/* Bouton */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #2a6fdb;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #1a4fb8;
+}
+
+/* Liens sociaux */
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 10px 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #2a6fdb;
+  font-weight: 600;
+  transition: 0.2s;
+  font-size: 18px;
+}
+
+.links a:hover {
+  color: #1a4fb8;
+}
+
+/* Icônes */
+.links i {
+  margin-right: 8px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+/* Couleurs officielles des logos */
+.fa-github { color: #333333; }
+.fa-x-twitter { color: #000000; }
+.fa-linkedin { color: #0A66C2; }
+
+
+/* Liens sociaux */
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 8px 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #2a6fdb;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.links a:hover {
+  color: #1a4fb8;
+}
